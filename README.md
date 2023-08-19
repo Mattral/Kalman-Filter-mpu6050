@@ -3,7 +3,7 @@
 
 
 
-The provided code implements a 1D Kalman filter for estimating roll and pitch angles of an object based on data from a gyroscope and accelerometer. The application of this code is in stabilizing and smoothing orientation measurements, often used in robotics, drones, and various motion control systems. Here's an explanation of the code's application and its potential usefulness:
+The provided code implements a 2D Kalman filter for estimating roll and pitch angles of an object based on data from a gyroscope and accelerometer. The application of this code is in stabilizing and smoothing orientation measurements, often used in robotics, drones, and various motion control systems. Here's an explanation of the code's application and its potential usefulness:
 
 
 1.Orientation Estimation: The code combines the data from a gyroscope (measuring angular rates) and an accelerometer (measuring gravitational acceleration) to estimate the orientation of the object in 3D space. The roll and pitch angles represent how much an object is tilted around the x and y-axis, respectively.
